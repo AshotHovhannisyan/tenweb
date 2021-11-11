@@ -1,0 +1,28 @@
+/* table style*/
+
+.tweb-all-contacts table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tweb-all-contacts td,
+.tweb-all-contacts th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tweb-all-contacts .tablenav{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tweb-all-contacts table img{
+    max-width: 200px;
+}
+
+.tweb-all-contacts form{
+    margin: 20px;
+}
+

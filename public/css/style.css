@@ -1,0 +1,60 @@
+
+.twebcf-main-form *{
+    outline: none !important;
+}
+
+.twebcf-main-form .change-file {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 6px 12px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.twebcf-main-form .change-file input[type=file] {
+   display: none;
+}
+.twebcf-main-form .form-group label {
+    display: block;
+}
+form.twebcf-main-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.twebcf-main-form select#twebcf-gender,
+.twebcf-main-form .form-group input{
+    width: 100%;
+    border-radius: 8px!important;
+    border: 1px solid #333!important;
+}
+.twebcf-main-form .form-group {
+    width: 48%;
+    margin-top: 20px;
+}
+
+.twebcf-main-form .change-file{
+    cursor: pointer;
+}
+
+input.twebcf-submit-css.twebcf-submit-js {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+@media (max-width: 767px) {
+    form.twebcf-main-form.twebcf-form-25 {
+        flex-direction: column;
+    }
+    .twebcf-main-form .form-group {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
